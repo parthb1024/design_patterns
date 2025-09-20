@@ -1,0 +1,20 @@
+[project]
+name = "design_patterns"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Parth Barhanpurkar",email = "parthbarhan@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.2.5)"
+]
+
+[tool.poetry]
+packages = [{include = "patterns", from = "scripts"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
